@@ -7,4 +7,4 @@ This repo contains 4 projects using different ways to handle forms in React.
 3. Formik
 4. Final Form
 
-All projects are bootstrapped with create-react-app and use Material-UI for styling.
+All projects are bootstrapped with create-react-app and use [Rebass](https://rebassjs.org/) components.
