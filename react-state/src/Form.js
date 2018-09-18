@@ -1,25 +1,17 @@
 import React, { Component } from "react";
-import { Card, Flex, Heading } from "rebass";
+import { FormGroup, InputGroup } from "@blueprintjs/core";
 
 class Form extends Component {
   render() {
     return (
-      <Flex>
-        <Card
-          p={4}
-          py={6}
-          mx="auto"
-          backgroundImage="url(https://source.unsplash.com/random/1024x768)"
-          backgroundSize="cover"
-          borderRadius={8}
-          color="white"
-          bg="darkgray"
-        >
-          <Heading textAlign="center" fontSize={[5, 6]}>
-            Background Image
-          </Heading>
-        </Card>
-      </Flex>
+      <FormGroup
+        helperText="Helper text with details..."
+        label="Label A"
+        labelFor="text-input"
+        labelInfo="(required)"
+      >
+        <InputGroup id="text-input" placeholder="Placeholder text" />
+      </FormGroup>
     );
   }
 }
